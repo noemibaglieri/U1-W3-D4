@@ -1,21 +1,38 @@
 body {
   font-family: Open Sans, sans-serif;
+  background-color: #edf3f8;
 }
 
 main {
-  background-color: #dde2e7;
-  width: 50%;
+  background-color: #ffffff;
+  width: 30%;
   height: 600px;
   border-radius: 20px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: auto;
+  margin-top: 5rem;
 }
 
 h1 {
   color: #066fd1;
+  padding: 2rem 0;
+  margin: 0;
 }
 
 button {
   padding: 0;
   border: none;
   background: none;
+}
+
+#add-input {
+  border-radius: 50px;
+  border: 0;
+  background-color: #eaeaeb;
+  padding: 20px;
+  width: 25rem;
+}
+
+#add-button {
 }
