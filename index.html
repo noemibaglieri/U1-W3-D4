@@ -8,16 +8,17 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close"
     />
-    <script src="assets/scripts/script.js"></script>
+    <script src="assets/scripts/script.js" defer></script>
     <title>TO-DO List</title>
   </head>
   <body>
     <main>
       <h1>To-Do List</h1>
-      <div><input id="add-input" type="text" placeholder="Add task" /> <button id="add-button">Add</button></div>
-      <div>
-        <input type="checkbox" /><button><span class="material-symbols-outlined"> close </span></button>
-      </div>
+      <form><input id="add-input" type="text" placeholder="Add task" /> <button type="submit" id="add-button">Add</button>
+      
+        <ol id="list-of-tasks"></ol>
+      
+    </form>
     </main>
   </body>
 </html>

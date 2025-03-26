@@ -5,7 +5,7 @@ body {
 
 main {
   background-color: #ffffff;
-  width: 30%;
+  width: 40rem;
   height: 600px;
   border-radius: 20px;
   text-align: center;
@@ -15,7 +15,7 @@ main {
 }
 
 h1 {
-  color: #066fd1;
+  color: #8ec84d;
   padding: 2rem 0;
   margin: 0;
 }
@@ -26,7 +26,7 @@ button {
   background: none;
 }
 
-#add-input {
+#add-input, .task {
   border-radius: 50px;
   border: 0;
   background-color: #eaeaeb;
@@ -34,5 +34,19 @@ button {
   width: 25rem;
 }
 
+#add-input:focus {
+outline: none !important;
+}
+
 #add-button {
+  background-color: #ca5ef9;
+  padding: 20px 30px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.task {
+width: 100%;
 }
