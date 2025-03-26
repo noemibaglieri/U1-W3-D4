@@ -1,0 +1,21 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+main {
+  background-color: #dde2e7;
+  width: 50%;
+  height: 600px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #066fd1;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
