@@ -48,5 +48,16 @@ outline: none !important;
 }
 
 .task {
-width: 100%;
+width: 60%;
+}
+
+.completed-task {
+  text-decoration: line-through;
+}
+
+.delete-task-button {
+  text-decoration: none;
+}
+ol li {
+  list-style-type: none !important;
 }

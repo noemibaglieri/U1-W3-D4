@@ -1,22 +1,24 @@
 const form = document.querySelector("form");
 
+
 form.onsubmit = function (e) {
     e.preventDefault();
     const listOfTasks = document.getElementById("list-of-tasks");
-    const addTaskBtn = document.getElementById("add-button");
-    
+    const taskInput = document.getElementById("add-input")
     const task = document.createElement("li");
+    const deleteTaskBtn = document.createElement("button")
     task.classList.add("task");
-    task.innerText = "micio"
+
+    deleteTaskBtn.type = "button"
+    deleteTaskBtn.innerText = "delete"
+    
+    task.innerText = taskInput.value
     listOfTasks.appendChild(task)
+    task.appendChild(deleteTaskBtn)
+    task.onclick = function (e) {
+        e.target.classList.toggle("completed-task")}
+        deleteTaskBtn.className = "delete-task-button"
+    
+
 }
 
-
-
-
-
-
-// addTaskBtn.onclick = function (e) {
-//     document.createElement(task)
-//     task.innerText = "test"
-// }
